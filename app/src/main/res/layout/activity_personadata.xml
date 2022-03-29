@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".personadata"
+    android:orientation="vertical">
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <androidx.appcompat.widget.Toolbar
+                 android:layout_width="match_parent"
+                 android:layout_height="50dp">
+
+                 <ImageView
+                     android:layout_width="20dp"
+                     android:layout_height="30dp"
+                     android:background="@mipmap/back"></ImageView>
+
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:gravity="center"
+                     android:text="编辑资料"
+                     android:textSize="15sp"
+                     android:textColor="@color/databutton"
+                     android:textStyle="bold"></TextView>
+             </androidx.appcompat.widget.Toolbar>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="50dp"
+                 android:orientation="vertical">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="200dp">
+                     <de.hdodenhof.circleimageview.CircleImageView
+                         android:layout_width="100dp"
+                         android:layout_height="100dp"
+                         android:layout_marginLeft="150dp"
+                         android:layout_marginTop="50dp"
+                         app:civ_border_color="@color/databutton"
+                         app:civ_border_width="12dp"></de.hdodenhof.circleimageview.CircleImageView>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:id="@+id/nameb"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:background="#FFFDFD"
+                         android:text="名字"></Button>
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="抖音号"
+                         android:background="@color/white"
+                         android:id="@+id/number"></Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="简介"
+                         android:background="@color/white"
+                         android:id="@+id/synopsis"></Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="性别"
+                         android:background="@color/white"
+                         android:id="@+id/sex"></Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="生日"
+                         android:background="@color/white"
+                         android:id="@+id/birthday">
+                     </Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="所在地"
+                         android:background="@color/white"
+                         android:id="@+id/area"></Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="学校"
+                         android:background="@color/white"
+                         android:id="@+id/school"></Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="二维码"
+                         android:background="@color/white"
+                         android:id="@+id/qrcode">
+
+                     </Button>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="60dp">
+
+                     <Button
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:text="主业背景"
+                         android:background="@color/white"
+                         android:id="@+id/mbg"></Button>
+                 </LinearLayout>
+             </LinearLayout>
+         </RelativeLayout>
+     </ScrollView>
+
+</RelativeLayout>

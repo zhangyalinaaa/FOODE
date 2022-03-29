@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mLin"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+       >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:src="@mipmap/profile1"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/MgName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100dp"
+                android:text="233"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/Mgcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30dp"
+                android:text="qwertttyyyuutttttttt"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
